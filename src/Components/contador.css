@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white, cyan);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultado {
+    width: 100px;
+    background-color: crimson;
+}
+
+.botoes {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    font-size: medium;
+}
+
+.botoesContent {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
